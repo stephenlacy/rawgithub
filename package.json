@@ -1,0 +1,32 @@
+{
+  "name": "rawgithub",
+  "description": "Get raw files from github repos",
+  "version": "0.1.0",
+  "homepage": "http://github.com/stevelacy/rawgithub",
+  "repository": "git://github.com/stevelacy/rawgithub.git",
+  "author": "Steve Lacy me@slacy.me (slacy.me)",
+  "dependencies": {
+    "lodash.defaults": "^2.4.1",
+    "request": "^2.47.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.10",
+    "jshint-stylish": "^0.2.0",
+    "mocha": "^1.21.5",
+    "should": "^4.2.1"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "lint": "jshint . --reporter node_modules/jshint-stylish/stylish.js --exclude node_modules",
+    "test": "npm run lint && mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/stevelacy/rawgithub/raw/master/LICENSE"
+    }
+  ]
+}
