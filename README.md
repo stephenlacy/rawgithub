@@ -30,12 +30,26 @@ npm install rawgithub --save
 
 ```js
 
-EXAMPLEHERE
+var rawgithub = require('rawgithub');
+
+var url = 'https://github.com/stevelacy/rawgithub/blob/master/README.md';
+rawgithub(url, function(err, data){
+  // => returns the files contents as a string
+});
+
 
 ```
 
+## Options
+`Type: object`
 
-You can view more examples in the [example folder.](https://github.com/stevelacy/rawgithub/tree/master/examples)
+
+Defaults:
+
+    base: 'https://raw.githubusercontent.com'
+    host: 'github.com'
+
+
 
 ## LICENSE
 
