@@ -34,7 +34,7 @@ var rawgithub = require('rawgithub');
 
 var url = 'https://github.com/stevelacy/rawgithub/blob/master/README.md';
 rawgithub(url, function(err, data){
-  // => returns the files contents as a string
+  // => returns the file contents as a string
 });
 
 
