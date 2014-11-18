@@ -18,7 +18,6 @@
 </tr>
 </table>
 
-## Usage
 
 ## Install
 
