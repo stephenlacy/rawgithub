@@ -1,7 +1,7 @@
 {
   "name": "rawgithub",
   "description": "Get raw files from github repos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://github.com/stevelacy/rawgithub",
   "repository": "git://github.com/stevelacy/rawgithub.git",
   "author": "Steve Lacy me@slacy.me (slacy.me)",
